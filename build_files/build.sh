@@ -10,9 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf install -y kernel \
-NetworkManager \ 
-nano 
+dnf install -y kernel NetworkManager nano
 
 # Use a COPR Example:
 #
