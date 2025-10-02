@@ -21,4 +21,4 @@ dnf install -y kernel NetworkManager nano
 
 #### Example for enabling a System Unit File
 
-systemctl enable podman.socket
+#systemctl enable podman.socket
